@@ -47,7 +47,7 @@ namespace assinment2
                 double length = double.Parse(l.Text);
                 double width = double.Parse(w.Text);
                 double volume = height * length * width;
-                label4.Text = "volume = " + volume + input + "^3";
+                label4.Text = "Volume = " + volume + input + "^3";
             }
             catch
             {
@@ -76,7 +76,7 @@ namespace assinment2
                 double length = double.Parse(l.Text);
                 double width = double.Parse(w.Text);
                 double sa = 2 * (length * height + length * width + width * height);
-                label5.Text = "Sufrace area = " + sa + input + "^2";
+                label4.Text = "Sufrace area = " + sa + input + "^2";
             }
             catch
             {
@@ -116,7 +116,7 @@ namespace assinment2
                 string unit = u2.Text;
                 double radius = double.Parse(r.Text);
                 double S_sa = 4 * 3.14159 * radius * radius;
-                label10.Text = "Surface area = " + S_sa + unit + "^2";
+                label9.Text = "Surface area = " + S_sa + unit + "^2";
             }
             catch
             {
@@ -127,15 +127,14 @@ namespace assinment2
 
         private void button5_Click(object sender, EventArgs e)
         {
-            label4.Text = "Volume = ";
-            label5.Text = "Surface area = ";
+            label4.Text = "Answer = ";
+           
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            label9.Text = "Volume = ";
-            label10.Text = "Surface area = ";
-        }
+            label9.Text = "Answer = ";
+                    }
 
         private void u76_Click(object sender, EventArgs e)
         {
@@ -166,7 +165,7 @@ namespace assinment2
                 double C_radius = double.Parse(r2.Text);
                 double C_height = double.Parse(h2.Text);
                 double C_sa = 3.14159 * C_radius *( C_radius + Math.Sqrt(C_radius * C_radius + C_height * C_height));
-                label14.Text = "Surface area = " + C_sa + unit + "^2";
+                label13.Text = "Surface area = " + C_sa + unit + "^2";
             }
             catch
             {
@@ -176,8 +175,18 @@ namespace assinment2
 
         private void button9_Click(object sender, EventArgs e)
         {
-            label13.Text = "Volume = ";
-            label14.Text = "Surface area = ";
+            label13.Text = "Answer = ";
+            
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
