@@ -51,7 +51,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing. 
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying '!ERROR! enter a number into the mesurements and letters in the units?'.
                 label4.Text = "Answer = Sintax Error";//This changes the text in label 4 to 'Answer = Sintax Error'. 
             }
             
@@ -81,7 +81,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing.
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying "!ERROR! enter a number into the mesurements and letters in the units?".
                 label4.Text = "Answer = Sintax Error";//This changes the text in label 4 to 'Answer = Sintax Error'.
             }
         }
@@ -102,7 +102,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing.
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying "!ERROR! enter a number into the mesurements and letters in the units?".
                 label9.Text = "Answer = Sintx Error";//This changes the text in label 4 to 'Answer = Sintax Error'.
             }
         }
@@ -123,7 +123,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing.
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying "!ERROR! enter a number into the mesurements and letters in the units?".
                 label9.Text = "Answer = Sintx Error";//This changes the text in label 4 to 'Answer = Sintax Error'.
             }
 
@@ -157,7 +157,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing.
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying "!ERROR! enter a number into the mesurements and letters in the units?".
                 label13.Text = "Answer = Sintx Error";//This changes the text in label 4 to 'Answer = Sintax Error'.
             }
         }
@@ -174,7 +174,7 @@ namespace assinment2
             }
             catch//This catches the error and displays an error message and stops the code from crashing.
             {
-                MessageBox.Show("!ERROR! what did you think was going to happen?");//This displays an error message saying '!ERROR! what did you think was going to happen?'.
+                MessageBox.Show("!ERROR! enter a number into the mesurements and letters in the units?");//This displays an error message saying "!ERROR! enter a number into the mesurements and letters in the units?".
                 label13.Text = "Answer = Sintx Error";//This changes the text in label 4 to 'Answer = Sintax Error'.
             }
         }
