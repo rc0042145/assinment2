@@ -194,5 +194,10 @@ namespace assinment2
         {
 
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
